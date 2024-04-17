@@ -9,6 +9,7 @@ environ = "*"
 dj-database-url = "*"
 django-environ = "*"
 gunicorn = "*"
+psycopg2 = "*"
 
 [dev-packages]
 

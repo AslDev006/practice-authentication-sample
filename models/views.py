@@ -29,7 +29,7 @@ def user_login(request):
         user = None
         if '@' in username:
             try:
-                user = User.objects.get(email=username)
+                user = User.objects.get(username=username)
             except ObjectDoesNotExist:
                 pass
 
